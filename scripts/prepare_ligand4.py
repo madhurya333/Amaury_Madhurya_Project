@@ -1,4 +1,4 @@
-#!/usr/bin/env /home/test/MGLTools-1.5.6/bin/pythonsh
+#!/usr/bin/env /usr/local/MGLTools-1.5.6/bin/pythonsh
 #
 # 
 #
