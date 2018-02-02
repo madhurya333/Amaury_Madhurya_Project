@@ -11,18 +11,20 @@ This program is intended to perform the evolution of a ligand to enhance its int
 As a result of this program you should generate a peptide ligand with a high affinity to the target protein.
 
 (!!IMPORTANT STUFF!!)
-REQUIREMENTS:
+
+#REQUIREMENTS:#
 Tools: Python2.7 ; PyMOL; AutoDock Vina; AutoDock Tools (MGLTools)
 Files: <protein>.pdb and <peptide>.pdb in data/ folder.
 
 (!!IMPORTANT STUFF!!)
-USAGE:
+
+#USAGE:#
 Place protein and peptide .pdb files in the "data/" folder.
 In the scripts folder, open master.sh script to make required user input modifications.
 Don't forget to enter the grid box coordinates in the ./docking.sh. (See Appendix Below)
 Run $ ./master.sh
 
-DESCRIPTION:
+#DESCRIPTION:#
 The master.sh shell script takes in user inputs of protein and peptide ligand .pdb files. 
 The main function of the script is a loop in which each residue of the ligand is selected one at a time and is committed to the following steps. 
 
@@ -45,11 +47,11 @@ The "EvolvedPeptide" is renamed with the name of the original peptide and is now
 When all the residues have been mutated with the best ranked mutations, the loop ends and the PDB file of the final evolution step is the best peptide ligand.
 
 
-APPENDIX:
+#APPENDIX:#
 Get Grid box coordinates (using AutoDock Tools):
 Load the pdb structure in MGLTools > Generate grid box over prefered area in the protein > Change the size of unit to 1 Angstrom > Note the coordinates from the grid box window.    
 
-REFERENCES:
+#REFERENCES:#
 1) O. Trott, A. J. Olson, AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization and multithreading, Journal of Computational Chemistry 31 (2010) 455-461                                                       
 DOI 10.1002/jcc.21334                                         
 Please see http://vina.scripps.edu for more information. 
