@@ -9,12 +9,12 @@ This program is intended to perform the evolution of a ligand to enhance its int
 4) The best mutant is used as an input for the mutation of the next residue of the ligand and so on. 
 As a result of this program you should generate a peptide ligand with a high affinity to the target protein.
 
-(!!IMPOTANT STUFF!!)
+(!!IMPORTANT STUFF!!)
 REQUIREMENTS:
 Tools: Python2.7 ; PyMOL; AutoDock Vina; AutoDock Tools (MGLTools)
 Files: <protein>.pdb and <peptide>.pdb in data/ folder.
 
-(!!IMPOTANT STUFF!!)
+(!!IMPORTANT STUFF!!)
 USAGE:
 Place protein and peptide .pdb files in the "data/" folder.
 In the scripts folder, open master.sh script to make required user input modifications.
