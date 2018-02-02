@@ -43,3 +43,9 @@ APPENDIX:
 Get Grid box coordinates (using AutoDock Tools):
 Load the pdb structure in MGLTools > Generate grid box over prefered area in the protein > Change the size of unit to 1 Angstrom > Note the coordinates from the grid box window.    
 
+REFERENCES:
+1) O. Trott, A. J. Olson, AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization and multithreading, Journal of Computational Chemistry 31 (2010) 455-461                                                       
+DOI 10.1002/jcc.21334                                         
+Please see http://vina.scripps.edu for more information. 
+
+2) The PyMOL Molecular Graphics System, Version 2.0 Schrödinger, LLC.

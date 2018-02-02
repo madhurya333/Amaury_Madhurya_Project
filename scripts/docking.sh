@@ -17,7 +17,7 @@ do
         base=`basename $file .pdbqt`
 	# Peptide ligand is docked on protein using AutoDock Vina.
 	# Appropriate docking site coordinates are read from user given input.
-        vina --receptor ../data/$3.pdbqt --ligand $file --center_x "${4[1]}" --center_y "${4[2]}" --center_z ${4[3]} --size_x ${4[4]} --size_y ${4[5]} --size_z ${4[6]} --log $Path/${base}log.txt --exhaustiveness 1
+        vina --receptor ../data/$3.pdbqt --ligand $file --center_x 11 --center_y 90.5 --center_z 57.5 --size_x 22 --size_y 22 --size_z 28 --log $Path/${base}log.txt --exhaustiveness 1
 
 	# best_value.txt save the name of the log file and the minimum energy value from the log file.
         echo "${base}log.txt" >> $Path/best_value.txt
