@@ -18,7 +18,7 @@ Files: <protein>.pdb and <peptide>.pdb in data/ folder.
 USAGE:
 Place protein and peptide .pdb files in the "data/" folder.
 In the scripts folder, open master.sh script to make required user input modifications.
-Don't forget to enter the grid box coordinates in the ./docking.sh. 
+Don't forget to enter the grid box coordinates in the ./docking.sh. (See Appendix Below)
 Run $ ./master.sh
 
 DESCRIPTION:
@@ -37,4 +37,9 @@ The best mutant is now designated as "EvolvedPeptide"
 The "EvolvedPeptide" is renamed with the name of the original peptide and is now the carrier of the best mutations so far. It is now used as the template for the next round of mutations.
 
 When all the residues have been mutated with the best ranked mutations, the loop ends and the PDB file of the final evolution step is the best peptide ligand.
+
+
+APPENDIX:
+Get Grid box coordinates (using AutoDock Tools):
+Load the pdb structure in MGLTools > Generate grid box over prefered area in the protein > Change the size of unit to 1 Angstrom > Note the coordinates from the grid box window.    
 
