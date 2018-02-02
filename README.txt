@@ -1,8 +1,7 @@
 ## AUTOMATED DIRECTED-EVOLUTION ##
--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
  Created by Madhurya Lutikurti(S3242803) and Amaury Ovalle Maqueo(S3087697)
- Last Modified : 01-02-18 1515 hrs
--------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------
 This program is intended to perform the evolution of a ligand to enhance its interaction with a protein of interest. A combination of computational molecular biology tools are used.
 1) PYMOL to generate all the possible mutations for a specific residue of the ligand. 
 2) These mutant ligands are docked on a target protein using the program AutoDockVina 
